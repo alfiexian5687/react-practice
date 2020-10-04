@@ -1,0 +1,38 @@
+body{
+  background-color: #282c34;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+  flex-wrap: wrap;
+}
+
+.container > * {
+  margin: 40px 25px;
+  flex: 1 0 300px;
+}
+
+.card{
+  position: relative;
+  color: white;
+  padding: 3%;
+  border-radius: 67px;
+  background: #282c34;
+  box-shadow: inset 6px 6px 12px #1a1c21, 
+              inset -6px -6px 12px #363c47;
+  height: 40vh;
+}
+
+.image{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  top: -40px;
+}
+
+
+

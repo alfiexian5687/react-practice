@@ -1,0 +1,156 @@
+.parent{
+  height: 100vh;
+  width: 100vw;
+  background-color:#fafafa;
+}
+
+.container{
+  height: 100%;
+  width: 50vw;
+  margin: 0 25vw 0 25vw;
+  display: flex;
+}
+
+.container > *{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info{
+  flex: 0.5;
+}
+
+.phone{
+  height: 80vh;
+  padding: 20px;
+}
+
+.login{
+  flex: 0.5;
+}
+
+.login_holder{
+  height: 45vh;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.login_holder > *{
+  flex: 1;
+  margin: 10px;
+}
+
+.login_holder > h1{
+  font-style: Billabong;
+  text-align: center;
+  font-size: 35px;
+}
+
+.input_holder{
+  border: 1px solid #f2f0f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px 15px ;
+  color:#8e8e8e;
+  border-radius: 5px;
+}
+
+.login_button{
+  color: white;
+  background-color:#b2dffc;
+  border: none;
+  font-size: 15px;
+  font-weight:700;
+  border-radius: 5px;
+}
+
+.or{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color:	#cacaca;
+}
+
+.or:before,
+.or:after {
+  background-color: grey;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.or:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.or:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.first_link{
+  margin: auto;
+  text-decoration: none;
+  color:#385185;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.forgot_password{
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.sign_up{
+  margin-top: 10px;
+  height: 7vh;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.acc{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.last{
+  text-decoration: none;
+  color:#0095f6;
+  font-weight: 500;
+}
+
+.get_the_app{
+  text-align: center;
+  font-size: 15px;
+}
+
+.install{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.appstore{
+  flex: 0.5;
+}
+
+.googlestore{
+  flex:0.5;
+}
